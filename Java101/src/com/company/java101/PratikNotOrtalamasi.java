@@ -21,7 +21,9 @@ public class PratikNotOrtalamasi {
 		
 		scan.close();
 		
-		System.out.println(new AvgCalculator().applyFor(new Student(courses)));
+		double avg = new AvgCalculator().applyFor(new Student(courses));
+		String result = avg>60? "Sınıfı Geçti":"Sınıfta Kaldı";
+		System.out.println(result);
 	}
 
 }
