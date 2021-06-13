@@ -6,11 +6,11 @@ public class PratikNotOrtalamasi {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+
 		int count = 0;
 		Course[] courses = new Course[6];
 		Course course;
-		
+
 		// get input until Ctrl+Z
 		while (scan.hasNext()) {
 			course = new Course();
@@ -18,37 +18,37 @@ public class PratikNotOrtalamasi {
 			course.score = scan.nextInt();
 			courses[count++] = course;
 		}
-		
+
 		scan.close();
-		
+
 		double avg = new AvgCalculator().applyFor(new Student(courses));
-		String result = avg>60? "Sınıfı Geçti":"Sınıfta Kaldı";
+		String result = avg > 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
 		System.out.println(result);
 	}
 
 }
 
-class Student{
+class Student {
 	Course[] courses;
-	
+
 	public Student(Course[] courses) {
 		this.courses = courses;
 	}
 }
 
-class Course{
+class Course {
 	String name;
 	int score;
 }
 
-class AvgCalculator{
+class AvgCalculator {
 	double applyFor(Student student) {
 		double average = 0;
-		
-		for(int i=0; i<student.courses.length; i++) {
+
+		for (int i = 0; i < student.courses.length; i++) {
 			average += student.courses[i].score;
 		}
-		
-		return average/student.courses.length;
+
+		return average / student.courses.length;
 	}
 }
