@@ -1,4 +1,4 @@
-package com.company.java101;
+package com.company.java_101._01_key_koncepts_and_variables;
 
 import java.util.Scanner;
 
