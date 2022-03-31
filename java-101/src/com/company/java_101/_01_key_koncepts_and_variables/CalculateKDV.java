@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 
 public class CalculateKDV {
 	
-	
 	public static void main(String[] args) {
 		CalculateKDV calculator = new CalculateKDV();
 		
@@ -13,11 +12,10 @@ public class CalculateKDV {
 		double input = scan.nextDouble();
 		scan.close();
 		
-		int kdv = calculator.calculate(input);
-		System.out.println(kdv);
+		calculator.calculate(input);
 	}
 
-	public int calculate(double input) {
+	public void calculate(double input) {
 		Predicate<Double> graterThanZeroAndLessThanThousand = x -> x>0 && x<1000;
 		Predicate<Double> graterThanThousand = x -> x>1000;
 		
@@ -30,6 +28,13 @@ public class CalculateKDV {
 		}else {
 			System.out.println("invalid input");
 		}
-		return kdv;
+		
+		System.out.println("KDV'siz fiyat: " + input);
+		System.out.println("KDV'li fiyat: " + (input+input*kdv/100));
+		System.out.println("KDV tutari: " + kdv);
+	}
+	
+	public void print() {
+		
 	}
 }
