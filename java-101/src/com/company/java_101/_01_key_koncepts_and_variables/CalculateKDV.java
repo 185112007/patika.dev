@@ -33,8 +33,4 @@ public class CalculateKDV {
 		System.out.println("KDV'li fiyat: " + (input+input*kdv/100));
 		System.out.println("KDV tutari: " + kdv);
 	}
-	
-	public void print() {
-		
-	}
 }
