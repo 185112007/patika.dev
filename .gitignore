@@ -3,3 +3,9 @@
 
 ### Eclipse ###
 .metadata
+
+### Intellij IDEA
+.idea/
+.iml
+target/
+test/
