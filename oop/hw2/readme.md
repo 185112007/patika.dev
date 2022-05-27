@@ -1,3 +1,3 @@
-### University Management System - Class Diagram
+### Zoo Management System - Class Diagram
 
 ![alt text](animal.png?raw=true)
