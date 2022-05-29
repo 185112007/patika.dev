@@ -1,4 +1,4 @@
-#### HW - 01
+#### HW - 01 
 
 > Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
@@ -30,3 +30,5 @@
    SELECT * FROM film
    WHERE NOT length > 50 AND NOT(rental_rate = 2.99 OR rental_rate = 4.99);
    ```
+
+> Daha fazla bilgi için [app.patika.dev](https://app.patika.dev/courses/sql/Odev1) bakabilirsiniz
