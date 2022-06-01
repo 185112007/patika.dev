@@ -1,4 +1,4 @@
-#### HW - 01 
+#### HW - 02
 
 > Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
