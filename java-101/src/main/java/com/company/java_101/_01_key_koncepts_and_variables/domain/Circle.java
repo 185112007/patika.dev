@@ -1,9 +1,9 @@
-package com.company.java_101._01_key_koncepts_and_variables.circle_area;
+package com.company.java_101._01_key_koncepts_and_variables.domain;
 
 /**
  * @author gafur
  */
-public class UserInput {
+public class Circle {
     private double radius;
     private double angle;
 
