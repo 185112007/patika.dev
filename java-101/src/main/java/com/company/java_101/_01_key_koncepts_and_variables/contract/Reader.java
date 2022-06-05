@@ -5,4 +5,5 @@ package com.company.java_101._01_key_koncepts_and_variables.contract;
  */
 public interface Reader<T> {
     T read();
+    void close();
 }

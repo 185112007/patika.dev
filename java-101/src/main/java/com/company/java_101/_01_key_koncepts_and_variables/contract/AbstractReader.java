@@ -14,4 +14,8 @@ public abstract class AbstractReader<T> implements Reader{
         scanner = new Scanner(System.in);
     }
 
+    @Override
+    public void close() {
+        scanner.close();
+    }
 }

@@ -12,13 +12,13 @@ public class CircleInformationReader extends AbstractReader<Circle> {
         Circle circle = new Circle();
         boolean TF = true;
         while (TF){
-            System.out.print("Enter radius:");
+            System.out.print("Enter radius: ");
             circle.setRadius(scanner.nextDouble());
             if (circle.getRadius()<0){
                 System.out.println("Radius should be greater or equal to 0:");
                 continue;
             }
-            System.out.print("Enter angle:");
+            System.out.print("Enter angle: ");
             circle.setAngle(scanner.nextDouble());
             if (circle.getAngle()<0){
                 System.out.println("Angle should be greater or equal to 0:");
