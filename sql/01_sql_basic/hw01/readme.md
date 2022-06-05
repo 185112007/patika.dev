@@ -1,4 +1,4 @@
-#### HW - 01 
+#### HW - 01: WHERE/AND/OR/NOT
 
 > Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 

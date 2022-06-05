@@ -1,4 +1,4 @@
-#### HW - 02
+#### HW - 02: BETWEEN/IN
 
 > Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
